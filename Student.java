@@ -1,4 +1,4 @@
-package studenttree;
+package studentsystem;
 
 public class Student {
     int studentID;
@@ -10,11 +10,11 @@ public class Student {
         this.studentName = studentName;
         this.studentGPA = studentGPA;
     }
-    
-    public String toString(){
-        return "ID:" + studentID +
-               " - Name:" + studentName +
-               " - GPA:" + studentGPA;
+
+    public String toString() {
+         return "ID:" + studentID +
+                " - Name:" + studentName +
+                " - GPA:" + studentGPA;
     }
     
 }
